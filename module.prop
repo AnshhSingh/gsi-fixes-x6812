@@ -1,0 +1,7 @@
+id=euistx2
+name=EUI Audio + Stereo Speaker Mod
+version=v2.0
+versionCode=4
+author=Jeis, shivatejapeddi
+description=Systemlessly enable EUI Audio Mod on AOSP Extended, along with PseudoStereo/DualSpeaker SoundMod (for LeEco Le Max 2).
+minMagisk=17000
