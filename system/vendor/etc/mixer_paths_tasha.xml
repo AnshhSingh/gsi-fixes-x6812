@@ -7,7 +7,7 @@
     <ctl name="Voice Tx Mute" id="0" value="0" />
     <ctl name="Voice Tx Mute" id="1" value="-1" />
     <ctl name="Voice Tx Mute" id="2" value="500" />
-    <ctl name="Voice Rx Gain" id="0" value="0" />
+    <ctl name="Voice Rx Gain" id="0" value="2" />
     <ctl name="Voice Rx Gain" id="1" value="-1" />
     <ctl name="Voice Rx Gain" id="2" value="20" />
     <ctl name="Voip Tx Mute" id="0" value="0" />
@@ -16,7 +16,7 @@
     <ctl name="Voip Rx Gain" id="1" value="20" />
     <ctl name="Voip Mode Config" value="12" />
     <ctl name="Voip Rate Config" value="0" />
-    <ctl name="Voip Evrc Min Max Rate Config" id="0" value="1" />
+    <ctl name="Voip Evrc Min Max Rate Config" id="0" value="2" />
     <ctl name="Voip Evrc Min Max Rate Config" id="1" value="4" />
     <ctl name="Voip Dtx Mode" value="0" />
     <ctl name="TTY Mode" value="OFF" />
@@ -24,8 +24,8 @@
     <ctl name="LINEOUT2 Volume" value="13" />
     <ctl name="LINEOUT3 Volume" value="13" />
     <ctl name="LINEOUT4 Volume" value="13" />
-    <ctl name="HPHL Volume" value="35" />
-    <ctl name="HPHR Volume" value="35" />
+    <ctl name="HPHL Volume" value="39" />
+    <ctl name="HPHR Volume" value="39" />
     <ctl name="RX0 Digital Volume" value="98" />
     <ctl name="RX1 Digital Volume" value="98" />
     <ctl name="RX2 Digital Volume" value="98" />
@@ -2078,12 +2078,12 @@
         <ctl name="RX INT2_1 MIX1 INP0" value="RX6" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="RX1 Digital Volume" value="81" />
-        <ctl name="RX2 Digital Volume" value="81" />
+        <ctl name="RX1 Digital Volume" value="91" />
+        <ctl name="RX2 Digital Volume" value="91" />
         <ctl name="ANC HPHL Enable Switch" value="1" />
         <ctl name="ANC HPHR Enable Switch" value="1" />
-        <ctl name="HPHL Volume" value="35" />
-        <ctl name="HPHR Volume" value="35" />
+        <ctl name="HPHL Volume" value="39" />
+        <ctl name="HPHR Volume" value="39" />
     </path>
 
     <path name="speaker-and-anc-headphones">
@@ -2127,12 +2127,12 @@
         <ctl name="IIR0 INP0 Volume" value="54" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="RX1 Digital Volume" value="81" />
-        <ctl name="RX2 Digital Volume" value="81" />
+        <ctl name="RX1 Digital Volume" value="91" />
+        <ctl name="RX2 Digital Volume" value="91" />
         <ctl name="ANC HPHL Enable Switch" value="1" />
         <ctl name="ANC HPHR Enable Switch" value="1" />
-        <ctl name="HPHL Volume" value="35" />
-        <ctl name="HPHR Volume" value="35" />
+        <ctl name="HPHL Volume" value="39" />
+        <ctl name="HPHR Volume" value="39" />
     </path>
 
     <path name="voice-anc-fb-headphones">
@@ -2161,12 +2161,12 @@
         <ctl name="IIR0 INP0 Volume" value="62" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="RX1 Digital Volume" value="81" />
-        <ctl name="RX2 Digital Volume" value="81" />
+        <ctl name="RX1 Digital Volume" value="91" />
+        <ctl name="RX2 Digital Volume" value="91" />
         <ctl name="ANC HPHL Enable Switch" value="1" />
         <ctl name="ANC HPHR Enable Switch" value="1" />
-        <ctl name="HPHL Volume" value="50" />
-        <ctl name="HPHR Volume" value="50" />
+        <ctl name="HPHL Volume" value="55" />
+        <ctl name="HPHR Volume" value="55" />
     </path>
 
     <path name="speaker-and-anc-headphones-liquid">
