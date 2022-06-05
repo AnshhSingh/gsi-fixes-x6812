@@ -9,7 +9,7 @@
     <ctl name="Voice Tx Mute" id="0" value="0" />
     <ctl name="Voice Tx Mute" id="1" value="-1" />
     <ctl name="Voice Tx Mute" id="2" value="500" />
-    <ctl name="Voice Rx Gain" id="0" value="0" />
+    <ctl name="Voice Rx Gain" id="0" value="2" />
     <ctl name="Voice Rx Gain" id="1" value="-1" />
     <ctl name="Voice Rx Gain" id="2" value="20" />
     <ctl name="Voip Tx Mute" id="0" value="0" />
@@ -26,17 +26,17 @@
     <!--ctl name="LINEOUT2 Volume" value="13" /-->
     <!--ctl name="LINEOUT3 Volume" value="13" /-->
     <!--ctl name="LINEOUT4 Volume" value="13" /-->
-    <ctl name="HPHL Volume" value="35" />
-    <ctl name="HPHR Volume" value="35" />
+    <ctl name="HPHL Volume" value="38" />
+    <ctl name="HPHR Volume" value="38" />
     <ctl name="RX0 Digital Volume" value="100" />
     <ctl name="RX1 Digital Volume" value="100" />
-    <ctl name="RX2 Digital Volume" value="94" />
-    <ctl name="RX3 Digital Volume" value="94" />
-    <ctl name="RX4 Digital Volume" value="94" />
-    <ctl name="RX5 Digital Volume" value="94" />
-    <ctl name="RX6 Digital Volume" value="94" />
-    <ctl name="RX7 Digital Volume" value="94" />
-    <ctl name="RX8 Digital Volume" value="94" />
+    <ctl name="RX2 Digital Volume" value="96" />
+    <ctl name="RX3 Digital Volume" value="96" />
+    <ctl name="RX4 Digital Volume" value="96" />
+    <ctl name="RX5 Digital Volume" value="96" />
+    <ctl name="RX6 Digital Volume" value="96" />
+    <ctl name="RX7 Digital Volume" value="96" />
+    <ctl name="RX8 Digital Volume" value="96" />
     <ctl name="ADC1 Volume" value="16" />
     <ctl name="ADC2 Volume" value="12" />
     <ctl name="ADC3 Volume" value="12" />
@@ -2442,10 +2442,10 @@
         <ctl name="RX INT2_1 MIX1 INP0" value="RX1" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="HPHL Volume" value="28" />
-        <ctl name="HPHR Volume" value="28" />
-        <ctl name="RX1 Digital Volume" value="81" />
-        <ctl name="RX2 Digital Volume" value="81" />
+        <ctl name="HPHL Volume" value="30" />
+        <ctl name="HPHR Volume" value="30" />
+        <ctl name="RX1 Digital Volume" value="91" />
+        <ctl name="RX2 Digital Volume" value="91" />
         <ctl name="ANC Slot" value="0" />
         <ctl name="ANC0 FB MUX" value="ANC_IN_HPHL" />
         <ctl name="ANC1 FB MUX" value="ANC_IN_HPHR" />
@@ -2494,10 +2494,10 @@
         <ctl name="IIR0 INP0 Volume" value="54" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="HPHL Volume" value="27" />
-        <ctl name="HPHR Volume" value="27" />
-        <ctl name="RX1 Digital Volume" value="81" />
-        <ctl name="RX2 Digital Volume" value="81" />
+        <ctl name="HPHL Volume" value="29" />
+        <ctl name="HPHR Volume" value="29" />
+        <ctl name="RX1 Digital Volume" value="91" />
+        <ctl name="RX2 Digital Volume" value="91" />
         <ctl name="ANC Slot" value="0" />
         <ctl name="ANC0 FB MUX" value="ANC_IN_HPHL" />
         <ctl name="ANC1 FB MUX" value="ANC_IN_HPHR" />
@@ -2529,10 +2529,10 @@
         <ctl name="IIR0 INP0 Volume" value="62" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="HPHL Volume" value="23" />
-        <ctl name="HPHR Volume" value="23" />
-        <ctl name="RX1 Digital Volume" value="81" />
-        <ctl name="RX2 Digital Volume" value="81" />
+        <ctl name="HPHL Volume" value="26" />
+        <ctl name="HPHR Volume" value="26" />
+        <ctl name="RX1 Digital Volume" value="91" />
+        <ctl name="RX2 Digital Volume" value="91" />
         <ctl name="ANC Slot" value="1" />
         <ctl name="ANC0 FB MUX" value="ANC_IN_HPHL" />
         <ctl name="ANC1 FB MUX" value="ANC_IN_HPHR" />
