@@ -3,5 +3,5 @@ name=EUI Audio + Dual speaker fix
 version=v2.0
 versionCode=4
 author=Jeis, shivatejapeddi
-description=Fix not working of dual speaker and improve call volume
-minMagisk=17000
+description=Fix working of dual speaker and improve call volume
+
