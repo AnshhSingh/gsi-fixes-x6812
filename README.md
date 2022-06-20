@@ -3,6 +3,8 @@ This repository is a magisk module to fix some problems with custom roms for use
 
 Tested on infinix hot 11s it may or may not work on simmilar devices
 
+Increase in speaker volume is the most significant change which this module causes distortion may occur sometimes at max volume 
+
 Use it at your own risk even though the chances of bootloop are very low I don't guarantee anything
 
 All credits to the original creators
