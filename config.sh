@@ -35,24 +35,7 @@ LATESTARTSERVICE=false
 
 ##########################################################################################
 # Installation Message
-##########################################################################################
-
-# Set what you want to show when installing your mod
-
-print_modname() {
-  ui_print "*******************************"
-  ui_print "EUI Audio + Dual Speaker Mod for AOSP extended and similar rom"
-  ui_print "for Le Max 2"
-  ui_print "*******************************"
-  ui_print "SoundMod by Jeis (Matteo Cerri)"
-  ui_print "*******************************"
-  ui_print "*******************************"
-  ui_print "EUI Audio Mod by shivatejapeddi (Shiva Teja)"
-  ui_print "*******************************"
-  ui_print "Modified for dual speaker and call improvements(Ansh)"
-  ui_print"Last tested on Android 12 ancient os gsi"
-    ui_print "*******************************"
-}
+###################################################################################
 
 ##########################################################################################
 # Replace list
