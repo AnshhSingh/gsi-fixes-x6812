@@ -1,0 +1,5 @@
+ui_print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+ui_print "This module is made using modification of existing"
+ui_print "modules to make gsi experience better for"
+ui_print "infinix hot 11s"
+ui_print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
