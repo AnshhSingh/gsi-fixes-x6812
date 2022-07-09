@@ -114,3 +114,5 @@ persist.vendor.audio.bcl.enabled=false
 persist.vendor.audio.format.24bit=true
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24 
 persist.vendor.audio.delta.refresh=true
+
+sys.use_fifo_ui=1
