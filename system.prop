@@ -116,3 +116,4 @@ persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24
 persist.vendor.audio.delta.refresh=true
 
 sys.use_fifo_ui=1
+CONFIG_HZ=1000
