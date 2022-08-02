@@ -166,61 +166,27 @@ profiler.debugmonitor=false
 profiler.launch=false
 profiler.hung.dumpdobugreport=false
 
-# Zygote Preforking
-persist.device_config.runtime_native.usap_pool_enabled=true
-ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
-# Improve global touch screen response
 debug.egl.hw=1
 video.accelerate.hw=1
 view.scroll_friction=0
-
-# Open the first-in-first-out interface thread
 sys.use_fifo_ui=1
-pm.dexopt.bg-dexopt=speed-profile
-pm.dexopt.shared=speed
-
-# Speed
 pm.dexopt.first-boot=speed
 pm.dexopt.install=speed
 pm.dexopt.bg-dexopt=speed
 pm.dexopt.boot=speed
-
-# Performance
 debug.sf.latch_unsignaled=1
 debug.sf.hw=1
 debug.performance.tuning=1
 debug.egl.profiler=1
 debug.egl.hw=1
 debug.composition.type=gpu
-
-
-
-# Graphic properties
-persist.demo.hdmirotationlock=false
-persist.hwc.enable_vds=1
-ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
-ro.surface_flinger.has_HDR_display=true
-ro.surface_flinger.has_wide_color_display=true
-ro.surface_flinger.max_frame_buffer_acquired_buffers=3
-ro.surface_flinger.max_virtual_display_dimension=4096
-ro.surface_flinger.protected_contents=true
-
-# Doze parameters
-#pm.sleep_mode=1
-
-
-
-# Smoothens UI
-#persist.service.lgospd.enable=0
-#persist.service.pcsync.enable=0
-#ro.mtk_perf_simple_start_win=1
-#ro.mtk_perf_fast_start_win=1
-#ro.mtk_perf_response_time=1
-# Turn off vertical sync (V-Sync)
 debug.hwui.disable_vsync=true
 hwui.disable_vsync=true
 
 # Better call voice quality
 ro.ril.enable.amr.wideband=1
 
+
+ro.HOME_APP_ADJ=1
+persist.sys.purgeable_assets=1
