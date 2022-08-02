@@ -9,7 +9,7 @@ Use it at your own risk even though the chances of bootloop are very low I don't
 + Call volume
 + Speaker fix
 + Better memory management
-
++ Better performance
 All credits to the original creators
 
 Thanks for using!
