@@ -190,3 +190,19 @@ ro.ril.enable.amr.wideband=1
 
 ro.HOME_APP_ADJ=1
 persist.sys.purgeable_assets=1
+
+profiler.force_disable_err_rpt=1
+
+profiler.force_disable_ulog=1
+
+media.stagefright.enable-player=true
+
+media.stagefright.enable-meta=true
+
+media.stagefright.enable-scan=true
+
+media.stagefright.enable-http=true
+
+media.stagefright.enable-rtsp=true
+
+media.stagefright.enable-record=true
