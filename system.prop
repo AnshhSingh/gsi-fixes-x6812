@@ -94,7 +94,6 @@ vendor.voice.dsd.playback.conc.disabled=false
 vendor.audio.hdr.record.enable=true
 vendor.audio.3daudio.record.enable=true
 ro.vendor.audio.recording.hd=true 
-ro.ril.enable.amr.wideband=1 
 persist.audio.lowlatency.rec=true
 
 
@@ -136,8 +135,7 @@ MultitouchMinDistance=1px
 MultitouchSettleInterval=0.1ms
 TapInterval=0.1ms
 TapSlop=1px
-windowsmgr.max_events_per_sec=180
-ro.min_pointer_dur=4
+#windowsmgr.max_events_per_sec=180
 ro.max.fling_velocity=18000
 ro.min.fling_velocity=6000
 ro.product.multi_touch_enabled=true
@@ -206,3 +204,38 @@ media.stagefright.enable-http=true
 media.stagefright.enable-rtsp=true
 
 media.stagefright.enable-record=true
+#cam
+
+
+ro.media.enc.hprof.vid.bps=8000000
+ro.camcorder.videoModes=true
+#media codec
+ro.media.dec.aud.flac.enabled=1
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.vid.avi.enabled=1
+ro.media.dec.vid.wmv.enabled=1
+ro.media.dec.aud.wma.enabled=1
+ro.media.dec.aud.mp3.enabled=1
+ro.media.dec.vid.mp4.enabled=1
+ro.media.dec.aud.flac.enabled=1
+ro.media.dec.vid.H.264.enabled=1
+ro.media.enc.aud.flac.enabled=1
+ro.media.enc.vid.H.264.enabled=1
+ro.media.enc.aud.wma.enabled=1
+ro.media.enc.vid.wmv.enabled=1
+ro.media.enc.aud.mp3.enabled=1
+ro.media.enc.vid.mp4.enabled=1
+#datashare
+
+ro.config.nocheckin=1
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+#mem
+ro.config.dha_cached_max=12
+ro.config.dha_empty_max=32
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.990
+ro.config.sdha_apps_bg_max=60
