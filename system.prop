@@ -94,6 +94,7 @@ vendor.voice.dsd.playback.conc.disabled=false
 vendor.audio.hdr.record.enable=true
 vendor.audio.3daudio.record.enable=true
 ro.vendor.audio.recording.hd=true 
+ro.ril.enable.amr.wideband=1 
 persist.audio.lowlatency.rec=true
 
 
@@ -119,40 +120,16 @@ ro.product.multi_touch_enabled=true
 ro.product.max_num_touch=5
 
 # Touch response
-touch.pressure.scale=0.0001
-view.scroll_friction=10
-touch.size.calibration=geometric
-touch.pressure.calibration=amplitude
-touch.size.scale=1
-touch.size.bias=0
-touch.size.isSummed=0
-touch.orientation.calibration=interpolated
-touch.distance.calibration=area
-touch.distance.scale=0
-touch.coverage.calibration=box
-touch.gestureMode=spots
-MultitouchMinDistance=1px
-MultitouchSettleInterval=0.1ms
-TapInterval=0.1ms
-TapSlop=1px
-#windowsmgr.max_events_per_sec=180
-ro.max.fling_velocity=18000
-ro.min.fling_velocity=6000
-ro.product.multi_touch_enabled=true
+
 ro.product.max_num_touch=10
 ro.securestorage.knox=false
 security.mdpp=none
 security.mdpp.result=none
-af.resampler.quality=255
-persist.sys.scrollingcache=3
-persist.af.resampler.quality=255
-persist.dev.pm.dyn_samplingrate=1
 persist.service.lgospd.enable=0
-persist.service.pcsync.enable=0
+
 
 # Improve sliding response
 windowsmgr.max_events_per_sec=90
-view.scroll_friction=0
 ro.min_pointer_dur=8
 touch.deviceType=touchScreen
 
@@ -163,7 +140,7 @@ debugtool.anrhistory=0
 profiler.debugmonitor=false
 profiler.launch=false
 profiler.hung.dumpdobugreport=false
-debug.hwui.renderer=skiagl
+
 
 debug.egl.hw=1
 video.accelerate.hw=1
@@ -204,11 +181,6 @@ media.stagefright.enable-http=true
 media.stagefright.enable-rtsp=true
 
 media.stagefright.enable-record=true
-#cam
-
-
-ro.media.enc.hprof.vid.bps=8000000
-ro.camcorder.videoModes=true
 #media codec
 ro.media.dec.aud.flac.enabled=1
 ro.media.dec.aud.wma.enabled=1
@@ -241,7 +213,7 @@ ro.config.dha_lmk_scale=0.990
 ro.config.sdha_apps_bg_max=60
 
 #bootanimation
-#debug.sf.nobootanimation=1
+debug.sf.nobootanimation=1
 
 #logs
 profiler.force_disable_err_rpt=1
@@ -258,3 +230,4 @@ Dalvik.vm.minfree=2m
 Dalvik.vm.heapsize=200m
 Dalvik.vm.heapstaetsize=16m
 Dalvik.vm.heaptargetutilization=0.75
+debug.hwui.renderer=skiagl
