@@ -163,7 +163,7 @@ debugtool.anrhistory=0
 profiler.debugmonitor=false
 profiler.launch=false
 profiler.hung.dumpdobugreport=false
-
+debug.hwui.renderer=skiagl
 
 debug.egl.hw=1
 video.accelerate.hw=1
@@ -241,7 +241,7 @@ ro.config.dha_lmk_scale=0.990
 ro.config.sdha_apps_bg_max=60
 
 #bootanimation
-debug.sf.nobootanimation=1
+#debug.sf.nobootanimation=1
 
 #logs
 profiler.force_disable_err_rpt=1
